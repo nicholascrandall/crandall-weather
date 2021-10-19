@@ -17,8 +17,8 @@ export default class NavBar extends Component {
                 inverted={true}
                 className='nav-menu'
             >
-                <Menu.Item name='Home' className='item'>
-                    Home
+                <Menu.Item name='Weather' className='item'>
+                    <h2>Weather</h2>
                 </Menu.Item>
             </Menu>
             </>
