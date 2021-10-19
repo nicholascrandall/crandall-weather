@@ -1,5 +1,6 @@
 import './App.css';
 import { Component } from 'react'
+import NavBar from './components/NavBar'
 
 class App extends Component {
   constructor(props) {
@@ -12,7 +13,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h2>Weather</h2>
+        <NavBar />
+        <h2>Centered</h2>
       </div>
     )
   }
