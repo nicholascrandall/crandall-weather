@@ -38,15 +38,16 @@
   }
 }
 
-.nav-menu {
+.navBar {
   display: flex;
   justify-content: center;
   background-color: #375c89;
   height: 4vh;
+  line-height: 2vh;
+  white-space: nowrap;
 }
 
-.item {
+.navItem {
   color: white;
-  margin-top: 1vh;
   font-size: 1.1em;
 }
