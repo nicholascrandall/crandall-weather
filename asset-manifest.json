@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/crandall-weather/static/css/main.bba5e1e1.chunk.css",
+    "main.js": "/crandall-weather/static/js/main.48179661.chunk.js",
+    "main.js.map": "/crandall-weather/static/js/main.48179661.chunk.js.map",
+    "runtime-main.js": "/crandall-weather/static/js/runtime-main.82fa6297.js",
+    "runtime-main.js.map": "/crandall-weather/static/js/runtime-main.82fa6297.js.map",
+    "static/js/2.43661294.chunk.js": "/crandall-weather/static/js/2.43661294.chunk.js",
+    "static/js/2.43661294.chunk.js.map": "/crandall-weather/static/js/2.43661294.chunk.js.map",
+    "static/js/3.66ebb145.chunk.js": "/crandall-weather/static/js/3.66ebb145.chunk.js",
+    "static/js/3.66ebb145.chunk.js.map": "/crandall-weather/static/js/3.66ebb145.chunk.js.map",
+    "index.html": "/crandall-weather/index.html",
+    "precache-manifest.7a52cf6228e869e500e8b64f8fd03333.js": "/crandall-weather/precache-manifest.7a52cf6228e869e500e8b64f8fd03333.js",
+    "service-worker.js": "/crandall-weather/service-worker.js",
+    "static/css/main.bba5e1e1.chunk.css.map": "/crandall-weather/static/css/main.bba5e1e1.chunk.css.map",
+    "static/js/2.43661294.chunk.js.LICENSE.txt": "/crandall-weather/static/js/2.43661294.chunk.js.LICENSE.txt",
+    "static/media/forecast.png": "/crandall-weather/static/media/forecast.b2590e75.png",
+    "static/media/humidity.png": "/crandall-weather/static/media/humidity.00b7d550.png",
+    "static/media/thermometer.png": "/crandall-weather/static/media/thermometer.3fe95d75.png",
+    "static/media/wind.png": "/crandall-weather/static/media/wind.4feb1ea8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82fa6297.js",
+    "static/js/2.43661294.chunk.js",
+    "static/css/main.bba5e1e1.chunk.css",
+    "static/js/main.48179661.chunk.js"
+  ]
+}
