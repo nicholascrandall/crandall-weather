@@ -41,9 +41,10 @@ export default class Weather extends Component {
         if (this.state.forecast) {
             return (
                 <div>
-                    <h1>Temperature for {this.state.zipCode}</h1>
+                    <h1>Forecast for {this.state.forecast.name}</h1>
                     <p>Temp: {this.state.forecast.main.temp}° F</p>
                     <p>Wind: {this.state.forecast.wind.speed} MPH</p>
+                    <p>Humidity: {this.state.forecast.main.humidity}%</p>
                     <p>{this.state.forecast.weather[0].description}</p>
                 </div>
             )
