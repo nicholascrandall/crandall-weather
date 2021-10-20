@@ -20,6 +20,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(`GLOBAL ${this.state.zipCode}`)
     return (
       <div className="App">
         <BrowserRouter>
@@ -27,14 +28,14 @@ class App extends Component {
             {/* weather show page */}
             <Route path="/weather">
               <NavBar />
-              <Search />
+              <Search setZipCode={this.setZipCode} />
               <Weather />
             </Route>
 
             {/* HOME PAGE - KEEP AT BOTTOM */}
             <Route path="/">
               <NavBar />
-              <Search />
+              <Search setZipCode={this.setZipCode} />
             </Route>
           </Switch>
         </BrowserRouter>
