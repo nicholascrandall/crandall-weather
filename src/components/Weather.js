@@ -5,7 +5,7 @@ export default class Weather extends Component {
         super(props);
         this.state = {
             apikey: process.env.REACT_APP_API_KEY,
-            city: this.props.city,
+            zipCode: this.props.zipCode,
         }
     }
 

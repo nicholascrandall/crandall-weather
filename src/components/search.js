@@ -16,6 +16,7 @@ export default class Home extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault()
+        this.props.setZipCode(this.state.zipCode)
         this.setState({
             zipSearched: true
         })
