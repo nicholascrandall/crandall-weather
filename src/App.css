@@ -42,8 +42,8 @@
   display: flex;
   justify-content: center;
   background-color: #375c89;
-  height: 4vh;
-  line-height: 2vh;
+  height: 6vh;
+  line-height: 4vh;
   white-space: nowrap;
 }
 
