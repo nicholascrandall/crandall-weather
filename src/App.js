@@ -29,7 +29,7 @@ class App extends Component {
             <Route path="/weather">
               <NavBar />
               <Search setZipCode={this.setZipCode} />
-              <Weather />
+              <Weather zipCode = {this.state.zipCode} />
             </Route>
 
             {/* HOME PAGE - KEEP AT BOTTOM */}

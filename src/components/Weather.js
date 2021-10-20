@@ -10,6 +10,7 @@ export default class Weather extends Component {
     }
 
     render() {
+        console.log(`WEATHER PAGE: ${this.state.zipCode}`)
         // if (this.state.forecast) { }
         return (
             <div>
