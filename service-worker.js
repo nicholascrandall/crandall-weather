@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/crandall-weather/precache-manifest.7a52cf6228e869e500e8b64f8fd03333.js"
+  "/crandall-weather/precache-manifest.01738504b1e7d8b62c191daa60b8ec49.js"
 );
 
 self.addEventListener('message', (event) => {
