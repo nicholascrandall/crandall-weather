@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import { Redirect } from 'react-router-dom'
 
 export default class Home extends Component {
     constructor(props) {
@@ -24,6 +25,9 @@ export default class Home extends Component {
 
     render() {
         console.log(this.state);
+        if (this.state.zipSearched) {
+            return <Redirect to="/weather" />
+        }
         return (
         <div className="searchContainer">
             <form onSubmit={this.handleSubmit}>
