@@ -48,7 +48,10 @@ export default class Weather extends Component {
             console.log(this.state.error)
             return (
                 <div>
-                    <h3>Weather Details Not Found</h3>
+                    <p>Temp: </p>
+                    <p>Wind: </p>
+                    <p>Description: </p>
+                    <p>loading...</p>
                 </div>
             )
         }
