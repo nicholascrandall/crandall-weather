@@ -1,5 +1,5 @@
 import './App.css';
-import { Component } from 'react'
+import React, { Component } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Weather from './components/Weather'

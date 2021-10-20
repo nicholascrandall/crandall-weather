@@ -1,4 +1,4 @@
-import { Component } from 'react'
+import React, { Component } from 'react'
 import forecast from '../images/forecast.png'
 import humidity from '../images/humidity.png'
 import temperature from '../images/thermometer.png'
