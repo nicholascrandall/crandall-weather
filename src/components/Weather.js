@@ -41,15 +41,25 @@ export default class Weather extends Component {
         if (this.state.forecast) {
             return (
                 <div className="forecast">
-                    <img src={forecast} alt="forecast" />
-                    <h1>Forecast for {this.state.forecast.name}</h1>
-                    <img src={temperature} alt="temperature" />
-                    <h3>Temp: {this.state.forecast.main.temp}° F</h3>
-                    <img src={wind} alt="wind" />
-                    <h3>Wind: {this.state.forecast.wind.speed} MPH</h3>
-                    <img src={humidity} alt="humidity" />
-                    <h3>Humidity: {this.state.forecast.main.humidity}%</h3>
-                    <h3>{this.state.forecast.weather[0].description}</h3>
+                    <span className="sun">
+                        <img src={forecast} alt="forecast" />
+                        <h1>Forecast for {this.state.forecast.name}</h1>
+                    </span>
+                    <span className="temp">
+                        <img src={temperature} alt="temperature" />
+                        <h3>Temp: {this.state.forecast.main.temp}° F</h3>
+                    </span>
+                    <span className="wind">
+                        <img src={wind} alt="wind" />
+                        <h3>Wind: {this.state.forecast.wind.speed} MPH</h3>
+                    </span>
+                    <span className="humidity">
+                        <img src={humidity} alt="humidity" />
+                        <h3>Humidity: {this.state.forecast.main.humidity}%</h3>
+                    </span>
+                    <span className="desc">
+                        <h3>{this.state.forecast.weather[0].description}</h3>
+                    </span>
                 </div>
             )
         } else {
