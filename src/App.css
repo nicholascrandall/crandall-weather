@@ -51,3 +51,34 @@
   color: white;
   font-size: 1.1em;
 }
+
+.searchInput {
+  width: 430px;
+  padding: 12px 24px;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 16px;
+  line-height: 18px;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  border-radius: 50px;
+  border: 1px solid #575756a5;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.searchInput :focus {
+    padding: 12px 0;
+    outline: 0;
+    border: 1px solid transparent;
+    border-bottom: 2px solid rgb(9, 174, 174);
+    border-radius: 0;
+    background-position: 100% center;
+}
+
+.searchContainer {
+  margin: 10px 0 0 10px;
+  width: 100%;
+}
