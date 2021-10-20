@@ -22,7 +22,7 @@ export default class Home extends Component {
     }
 
     render() {
-        console.log(this.state.zipCode);
+        console.log(this.state);
         return (
         <div className="searchContainer">
             <form onSubmit={this.handleSubmit}>

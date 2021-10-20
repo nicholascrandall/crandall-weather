@@ -59,9 +59,6 @@
   transition: transform 250ms ease-in-out;
   font-size: 16px;
   line-height: 18px;
-  background-repeat: no-repeat;
-  background-size: 18px 18px;
-  background-position: 95% center;
   border-radius: 50px;
   border: 1px solid #575756a5;
   transition: all 250ms ease-in-out;
@@ -69,16 +66,27 @@
   transform-style: preserve-3d;
 }
 
-.searchInput :focus {
+.searchInput:hover, .searchInput:focus {
     padding: 12px 0;
     outline: 0;
     border: 1px solid transparent;
-    border-bottom: 2px solid rgb(9, 174, 174);
+    border-bottom: 2px solid #575756a5;
     border-radius: 0;
-    background-position: 100% center;
 }
 
 .searchContainer {
   margin: 10px 0 0 10px;
   width: 100%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
