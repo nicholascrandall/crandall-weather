@@ -94,3 +94,16 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+/* .forecast {
+  display: flex;
+  flex-direction: column;
+} */
+
+img {
+  max-width: 10vh;
+}
+
+/* h3 {
+  display: inline-block;
+} */

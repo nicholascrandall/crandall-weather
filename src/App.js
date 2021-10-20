@@ -20,7 +20,6 @@ class App extends Component {
   }
 
   render() {
-    console.log(`GLOBAL ${this.state.zipCode}`)
     return (
       <div className="App">
         <BrowserRouter>
