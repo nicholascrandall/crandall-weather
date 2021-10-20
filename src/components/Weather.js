@@ -16,10 +16,12 @@ export default class Weather extends Component {
         fetch(weatherURL)
             .then(response => response.json())
             .then((data) => {
-                this.setState({
-                    forecast: data
-                })
-                console.log(data)
+                if (data.main) {
+                    this.setState({
+                        forecast: data
+                    })
+                    console.log(data)
+                }
             },
             (error) => {
                 this.setState({
@@ -39,9 +41,10 @@ export default class Weather extends Component {
         if (this.state.forecast) {
             return (
                 <div>
-                    <p>Temp: </p>
-                    <p>Wind: </p>
-                    <p>Description: </p>
+                    <h1>Temperature for {this.state.zipCode}</h1>
+                    <p>Temp: {this.state.forecast.main.temp}° F</p>
+                    <p>Wind: {this.state.forecast.wind.speed} MPH</p>
+                    <p>{this.state.forecast.weather[0].description}</p>
                 </div>
             )
         } else {
