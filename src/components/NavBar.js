@@ -11,7 +11,7 @@ export default class NavBar extends Component {
     render() {
         return (
             <div className='navBar'>
-                <a href="/" className='navItem' ><h2>Weather</h2></a>
+                <a href="/crandall-weather" className='navItem' ><h2>Weather</h2></a>
             </div>
         )
     }
